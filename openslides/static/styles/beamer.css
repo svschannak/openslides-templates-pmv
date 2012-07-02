@@ -14,7 +14,7 @@ body{
 /*** HEADER ***/
 #header {
     position:relative;
-    background:url("../images/presentation-header-bg.png") repeat-x scroll center top #3D3020;
+    background:#FF8800;
     height:100px;
 }
 #logo {
@@ -48,7 +48,7 @@ body{
 }
 #currentTime {
     border:0 solid #000000;
-    font-size:24px;
+    font-size:36px;
     position:absolute;
     text-align:right;
     top:110px;
@@ -166,3 +166,21 @@ tr.total td {
     background-color: #e3e3e3;
 }
 
+.antragssteller{
+    font-size: 24px;
+}
+
+.beamertitlenumber{
+    font-size: 140px;
+    margin-bottom: 100px;
+}
+
+.beamertitle{
+    font-size: 90px;
+    margin-bottom: 100px;
+}
+
+.antragssteller{
+    font-size: 72px;
+    margin-bottom: 100px;
+}

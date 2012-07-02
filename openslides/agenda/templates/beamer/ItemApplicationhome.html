@@ -1,4 +1,4 @@
-{% extends "beamer.html" %}
+{% extends "beamerhome.html" %}
 {% load tags %}
 {% block title %}{{ block.super }} - {{ item.title }}{% endblock %}
 {% block content %}
@@ -31,7 +31,19 @@
     {% endfor %}
     {% endif %}
     {% endwith %}
-    <div class="beamertitlenumber"><strong>{{ item.title }}</strong></div>
-    <div class="beamertitle">{{ item.application.title }}</div>
-    <div class="antragssteller"><strong>{% trans "Submitter" %}:</strong> {{ item.application.submitter.profile }}</div>
+    <h1><b>{{ item.title }}</b></h1>
+    <h2>{{ item.application.title }}</h2>
+    <p><strong>{% trans "Submitter" %}:</strong> {{ item.application.submitter.profile }}</p>
+
+        <div id="antragstexte">
+            <p><b>{% trans "Text" %}:</b></p>
+            <div>{{ item.application.public_version.text|linebreaks }}</div>
+        </div>
+    <p>
+    {% if item.application.public_version.reason %}
+        <br>
+        <div class="reason"><p><b>{% trans "Reason" %}:</b></p>
+        {{ item.application.public_version.reason|linebreaks }}</div>
+    {% endif %}
+    </p>
 {% endblock %}

@@ -15,6 +15,8 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns('agenda.views',
     url(r'^beamer/$', 'beamer',
         name='item_beamer'),
+    url(r'^beamer/home$', 'beamerhome',
+        name='item_beamer_home'),
 
     url(r'^$', 'overview'),
 

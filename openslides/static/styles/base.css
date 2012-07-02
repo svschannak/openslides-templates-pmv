@@ -15,7 +15,7 @@ body {
 /* HEADER */
 #header {
     position:relative;
-    background:url("../images/bg-header.gif") repeat-x scroll center top #3D3020;
+    background:#FF8800;
     height:150px;
 }
 #logo {

@@ -94,6 +94,53 @@ def beamer(request):
                                   data,
                                   context_instance=RequestContext(request))
 
+@permission_required('agenda.can_see_projector')
+def beamerhome(request):
+    """
+    Shows a active Slide.
+    """
+    data = {'ajax': 'on'}
+    template = ''
+    try:
+        item = get_active_item()
+        votes = assignment_votes(item)
+        polls = assignment_polls(item)
+        if is_summary():
+            items = item.children.filter(hidden=False)
+            data['items'] = items
+            data['title'] = item.title
+            template = 'beamer/overview.html'
+        else:
+            data['item'] = item.cast()
+            data['title'] = item.title
+            data['votes'] = votes
+            data['polls'] = polls
+            template = 'beamer/%shome.html' % (item.type)
+    except Item.DoesNotExist:
+        items = Item.objects.filter(parent=None).filter(hidden=False)\
+        .order_by('weight')
+        data['items'] = items
+        data['title'] = _("Agenda")
+        template = 'beamer/overview.html'
+
+    if request.is_ajax():
+        content = render_block_to_string(template, 'content', data)
+        jsondata = {'content': content,
+                    'title': data['title'],
+                    'time': datetime.now().strftime('%H:%M'),
+                    'bigger': config_get('bigger'),
+                    'up': config_get('up'),
+                    'countdown_visible': config_get('countdown_visible'),
+                    'countdown_time': config_get('agenda_countdown_time'),
+                    'countdown_control': config_get('countdown_control'),
+                    }
+        return ajax_request(jsondata)
+    else:
+        return render_to_response(template,
+            data,
+            context_instance=RequestContext(request))
+
+
 @permission_required('agenda.can_manage_agenda')
 def beamer_edit(request, direction):
     if direction == 'bigger':
