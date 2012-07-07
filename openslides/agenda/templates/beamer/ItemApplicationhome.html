@@ -34,6 +34,7 @@
     <h1><b>{{ item.title }}</b></h1>
     <h2>{{ item.application.title }}</h2>
     <p><strong>{% trans "Submitter" %}:</strong> {{ item.application.submitter.profile }}</p>
+    <p><strong>{% trans "Status" %}:</strong> {{ item.application.get_status_display }}</p>
 
         <div id="antragstexte">
             <p><b>{% trans "Text" %}:</b></p>

@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b965de05-56d9-4668-8a15-67bb975b339a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/openslides-templates-pmv.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/static/images/piratenlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamerhome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/static/javascript/beamerhome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/templates/beamer.html" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemAssignmenthome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemPollhome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemTexthome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/static/images/piratenlogo.png" afterPath="$PROJECT_DIR$/openslides/static/images/piratenlogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplication.html" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/urls.py" afterPath="$PROJECT_DIR$/openslides/agenda/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/views.py" afterPath="$PROJECT_DIR$/openslides/agenda/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/static/styles/base.css" afterPath="$PROJECT_DIR$/openslides/static/styles/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemText.html" afterPath="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemText.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openslides/static/styles/beamer.css" afterPath="$PROJECT_DIR$/openslides/static/styles/beamer.css" />
     </list>
     <ignored path="openslides-templates-pmv.iws" />
@@ -40,64 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beamer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="522" selection-end="522" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beamerhome.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamerhome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="69" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beamer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/static/javascript/beamer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beamerhome.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/static/javascript/beamerhome.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ItemApplication.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="119" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-16.666666">
+            <state line="36" column="116" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-22.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beamer.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/static/styles/beamer.css">
+      <file leaf-file-name="ItemText.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemText.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="25" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openslides/application/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="55" selection-start="1081" selection-end="1083" vertical-scroll-proportion="-6.8076925">
+            <state line="10" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -106,25 +54,61 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openslides/agenda/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+            <state line="77" column="30" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openslides/agenda/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="35" selection-start="4446" selection-end="4446" vertical-scroll-proportion="-10.692307">
+            <state line="167" column="28" selection-start="6160" selection-end="6160" vertical-scroll-proportion="4.697802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemApplicationhome.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ItemApplicationhome.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="6" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.42307693">
+            <state line="36" column="4" selection-start="1664" selection-end="1751" vertical-scroll-proportion="-13.208333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beamer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="59" selection-start="522" selection-end="522" vertical-scroll-proportion="-2.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beamer.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openslides/static/styles/beamer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="12" selection-start="3279" selection-end="3290" vertical-scroll-proportion="-9.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemPoll.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemPoll.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemAssignment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemAssignment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="10" selection-start="490" selection-end="510" vertical-scroll-proportion="-3.6">
               <folding />
             </state>
           </provider>
@@ -147,21 +131,24 @@
         <option value="$PROJECT_DIR$/openslides/static/styles/base.css" />
         <option value="$PROJECT_DIR$/openslides/application/models.py" />
         <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer.html" />
-        <option value="$PROJECT_DIR$/openslides/agenda/views.py" />
         <option value="$PROJECT_DIR$/openslides/agenda/urls.py" />
         <option value="$PROJECT_DIR$/openslides/agenda/templates/beamerhome.html" />
         <option value="$PROJECT_DIR$/openslides/static/javascript/beamer.js" />
         <option value="$PROJECT_DIR$/openslides/static/javascript/beamerhome.js" />
+        <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemPollhome.html" />
+        <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemAssignmenthome.html" />
+        <option value="$PROJECT_DIR$/openslides/agenda/views.py" />
+        <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html" />
         <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplication.html" />
         <option value="$PROJECT_DIR$/openslides/static/styles/beamer.css" />
-        <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html" />
+        <option value="$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemText.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1058" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -278,10 +265,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,22 +283,8 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="openslides-templates-pmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openslides-templates-pmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openslides" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,47 +328,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides-templates-pmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides-templates-pmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beamer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides-templates-pmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides-templates-pmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openslides" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
-  <component name="PublishConfig" serverName="openslides" serverId="4b947cf9-7cc7-4c2c-a362-6dfde1281ce4" autoUpload="true">
+  <component name="PublishConfig" serverName="openslides" serverId="bd0ca716-ac32-4dc4-8fda-8551662b0004" autoUpload="true">
     <servers>
-      <server id="3e3b42c3-e37c-4251-a989-d0fc77817fc5">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="4b947cf9-7cc7-4c2c-a362-6dfde1281ce4">
+      <server id="bd0ca716-ac32-4dc4-8fda-8551662b0004">
         <serverdata>
           <mappings>
             <mapping deploy="/home/development/openslides/openslides-template-pmv" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="80737c7b-4dbb-4bc3-abfa-c09f152f3eb3">
-        <serverdata>
-          <mappings>
-            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="bdecee07-9dfb-4eb7-b84a-5c7fc0737465">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </server>
@@ -415,9 +419,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/openslides/agenda/templates/beamer" />
       <recent name="$PROJECT_DIR$/openslides/agenda/templates" />
       <recent name="$PROJECT_DIR$/openslides/static/javascript" />
-      <recent name="$PROJECT_DIR$/openslides/agenda/templates/beamer" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.openslides-templates-pmv">
@@ -462,7 +466,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -473,8 +477,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="ssh://root@v2201202115047430.yourvserver.net:/usr/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="ssh://root@188.40.184.77:/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="/" />
       <option name="IS_MODULE_SDK" value="false" />
       <module name="openslides-templates-pmv" />
       <PyPathMappingSettings>
@@ -515,11 +519,13 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="b965de05-56d9-4668-8a15-67bb975b339a" name="Default" comment="" />
       <created>1340655260653</created>
       <updated>1340655260653</updated>
     </task>
@@ -546,28 +552,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1058" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.67022413" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19286872" sideWeight="0.6722818" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15072933" sideWeight="0.6722818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -625,116 +631,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/agenda/overview.html">
+    <entry file="file://$PROJECT_DIR$/openslides/static/javascript/beamer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="14" selection-start="1699" selection-end="1729" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/static/styles/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="5" selection-start="6012" selection-end="6013" vertical-scroll-proportion="-6.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/system/auth/AnonymousAuth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2797928">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/application/templates/application/base_application.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="341" selection-end="601" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/application/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="1081" selection-end="1083" vertical-scroll-proportion="-6.8076925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="35" selection-start="4446" selection-end="4446" vertical-scroll-proportion="-10.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/static/javascript/agenda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.930147">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="522" selection-end="522" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
+        <state line="4" column="26" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openslides/static/javascript/beamerhome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="4" column="31" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/application/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="55" selection-start="1081" selection-end="1083" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/static/javascript/beamer.js">
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/agenda/base_agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+        <state line="13" column="96" selection-start="698" selection-end="698" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamerhome.html">
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemPollhome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.625">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemTexthome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.25862068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemAssignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="490" selection-end="510" vertical-scroll-proportion="-3.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemAssignmenthome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="-1.2920203">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="119" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-16.666666">
+        <state line="36" column="116" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-22.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openslides/static/styles/beamer.css">
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="25" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0">
+        <state line="9" column="59" selection-start="522" selection-end="522" vertical-scroll-proportion="-2.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemApplicationhome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.42307693">
+        <state line="36" column="4" selection-start="1664" selection-end="1751" vertical-scroll-proportion="-13.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/static/styles/beamer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="12" selection-start="3279" selection-end="3290" vertical-scroll-proportion="-9.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemPoll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/templates/beamer/ItemText.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="30" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openslides/agenda/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="28" selection-start="6160" selection-end="6160" vertical-scroll-proportion="4.697802">
           <folding />
         </state>
       </provider>

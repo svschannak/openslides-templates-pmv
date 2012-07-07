@@ -37,7 +37,7 @@ body{
     top:60px;
     right:40px;
     font-size:17px;
-    color: #cfcfcf;
+    color: #fff;
 }
 #ajaxswitcher {
     height: 20px;
@@ -171,16 +171,30 @@ tr.total td {
 }
 
 .beamertitlenumber{
-    font-size: 140px;
-    margin-bottom: 100px;
+    font-size: 4em;
+    margin-bottom: 1em;
 }
 
 .beamertitle{
-    font-size: 90px;
-    margin-bottom: 100px;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.generaltitle{
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.generaltext{
+    font-size: 3em;
+    margin-bottom: 1em;
 }
 
 .antragssteller{
-    font-size: 72px;
-    margin-bottom: 100px;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.antragsstatus{
+    font-size: 3em;
+    margin-bottom: 1em;
 }

@@ -2,8 +2,8 @@
 {% block title %}{{ block.super }} - {{ item.title }}{% endblock %}
 {% block content %}
     {% if item.text %}
-        <p class="generaltitle">{{ item.title }}</p>
-        <p class="generaltext">{{ item.text|safe|linebreaks }}</p>
+        <h1>{{ item.title }}</h1>
+        {{ item.text|safe|linebreaks }}
     {% else %}
         <div class="item_fullscreen">{{ item.title }}</div>
     {% endif %}
